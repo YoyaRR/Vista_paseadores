@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #e9f8e4;
+    color: rgb(0, 0, 0);
+}
+
+.chewy-regular-title {
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+    text-align: center;
+}
+  
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 100px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.contenedor .paseador{
+    text-align: center;
+}
+
+.contenedor .paseador .foto{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: ruby-text;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.paginacion{
+    position: fixed;
+    bottom: 0;
+    background: #373257;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+.paginacion button{
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    background-color: #7fdf84;
+    color: #7374a7;
+    border-radius: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    transition: .3s ease all;
+}
+.paginacion button:hover{
+    background-color: rgb(220, 236, 77);
+}
+
+   
